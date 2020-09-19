@@ -81,7 +81,7 @@ class AdminTemplateController extends Controller
                 ->withInput();
         }
         $pathTmp = time();
-        $pathFile = sc_file_upload($data['file'],'tmp', $pathFolder = $pathTmp);
+        $pathFile = sc_file_upload($data['file'],'tmp', $pathFolder = $pathTmp)['pathFile'] ?? '';
         if($pathFile) {
             $unzip = sc_unzip(storage_path('tmp/'.$pathFile), storage_path('tmp/'.$pathTmp));
             if($unzip) {
@@ -97,7 +97,6 @@ class AdminTemplateController extends Controller
                         File::deleteDirectory(storage_path('tmp/'.$pathTmp));
                         return redirect()->back()->with('error', trans('template.error_config'));
                     }
-
                     $arrTemplateLocal = sc_get_all_template();
                     if(array_key_exists($configKey, $arrTemplateLocal)) {
                         File::deleteDirectory(storage_path('tmp/'.$pathTmp));
@@ -122,6 +121,6 @@ class AdminTemplateController extends Controller
         } else {
             return redirect()->back()->with('error', trans('template.error_upload'));
         }
-        return redirect()->back()->with('success', trans('template.import_success')); 
+        return redirect()->route('admin_template.index')->with('success', trans('template.import_success')); 
     }
 }
