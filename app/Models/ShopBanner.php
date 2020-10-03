@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Models\ModelTrait;
-
+use App\Admin\Models\AdminStore;
 class ShopBanner extends Model
 {
     use ModelTrait;

@@ -7,6 +7,7 @@ use App\Models\ShopProduct;
 use Cache;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\ModelTrait;
+use App\Admin\Models\AdminStore;
 
 class ShopCategory extends Model
 {

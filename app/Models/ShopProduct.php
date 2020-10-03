@@ -13,6 +13,7 @@ use DB;
 use Illuminate\Database\Eloquent\Model;
 use Cache;
 use App\Models\ModelTrait;
+use App\Admin\Models\AdminStore;
 class ShopProduct extends Model
 {
     use ModelTrait;

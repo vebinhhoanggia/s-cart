@@ -6,6 +6,7 @@ use App\Models\ShopNewsDescription;
 use Illuminate\Database\Eloquent\Model;
 use Cache;
 use App\Models\ModelTrait;
+use App\Admin\Models\AdminStore;
 class ShopNews extends Model
 {
     use ModelTrait;

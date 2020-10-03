@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Cache;
 use App\Models\ModelTrait;
+use App\Admin\Models\AdminStore;
 class ShopPage extends Model
 {
     use ModelTrait;
