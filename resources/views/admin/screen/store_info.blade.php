@@ -135,14 +135,9 @@
                       <tr>
                         <td>{{ trans('store.title') }}</td>
                         <td>
-                          @foreach ($descriptions as  $codeLang => $infoDescription)
-                          @php
-                              if (!in_array($codeLang, array_keys($languages->toArray()))) {
-                                continue;
-                              }
-                          @endphp
+                          @foreach ($languages->toArray() as  $codeLang => $lang)
                             {{ $languages[$codeLang]->name }} <img src="{{ asset($languages[$codeLang]->icon )}}" style="width:20px">:<br>
-                          <i><a href="#" class="editable-required editable editable-click" data-name="{{ 'title__'.$codeLang }}" data-type="text" data-pk="" data-source="" data-url="{{ route('admin_store.update') }}" data-title="{{ trans('store.title') }}" data-value="{{ $infoDescription['title'] }}" data-original-title="" title="">{{ $infoDescription['title'] }}</a></i><br>
+                          <i><a href="#" class="editable-required editable editable-click" data-name="{{ 'title__'.$codeLang }}" data-type="text" data-pk="" data-source="" data-url="{{ route('admin_store.update') }}" data-title="{{ trans('store.title') }}" data-value="{{ $descriptions[$codeLang]['title'] ?? '' }}" data-original-title="" title="">{{ $descriptions[$codeLang]['title'] ?? '' }}</a></i><br>
                           <br>
                           @endforeach
                         </td>
@@ -151,14 +146,9 @@
                       <tr>
                         <td>{{ trans('store.keyword') }}</td>
                         <td>
-                          @foreach ($descriptions as  $codeLang => $infoDescription)
-                          @php
-                              if (!in_array($codeLang, array_keys($languages->toArray()))) {
-                                continue;
-                              }
-                          @endphp
+                          @foreach ($languages->toArray() as  $codeLang => $lang)
                             {{ $languages[$codeLang]->name }} <img src="{{ asset($languages[$codeLang]->icon )}}" style="width:20px">:<br>
-                          <i><a href="#" class="editable-required editable editable-click" data-name="{{ 'keyword__'.$codeLang }}" data-type="text" data-pk="" data-source="" data-url="{{ route('admin_store.update') }}" data-title="{{ trans('store.keyword') }}" data-value="{{ $infoDescription['keyword'] }}" data-original-title="" title="">{{ $infoDescription['keyword'] }}</a></i><br>
+                          <i><a href="#" class="editable-required editable editable-click" data-name="{{ 'keyword__'.$codeLang }}" data-type="text" data-pk="" data-source="" data-url="{{ route('admin_store.update') }}" data-title="{{ trans('store.keyword') }}" data-value="{{ $descriptions[$codeLang]['keyword'] ?? '' }}" data-original-title="" title="">{{ $descriptions[$codeLang]['keyword'] ?? '' }}</a></i><br>
                           <br>
                           @endforeach
                         </td>
@@ -167,14 +157,9 @@
                       <tr>
                         <td>{{ trans('store.description') }}</td>
                         <td>
-                          @foreach ($descriptions as  $codeLang => $infoDescription)
-                          @php
-                              if (!in_array($codeLang, array_keys($languages->toArray()))) {
-                                continue;
-                              }
-                          @endphp
+                          @foreach ($languages->toArray() as  $codeLang => $lang)
                             {{ $languages[$codeLang]->name }} <img src="{{ asset($languages[$codeLang]->icon )}}" style="width:20px">:<br>
-                          <i><a href="#" class="editable-required editable editable-click" data-name="{{ 'description__'.$codeLang }}" data-type="text" data-pk="" data-source="" data-url="{{ route('admin_store.update') }}" data-title="{{ trans('store.description') }}" data-value="{{ $infoDescription['description'] }}" data-original-title="" title="">{{ $infoDescription['description'] }}</a></i><br>
+                          <i><a href="#" class="editable-required editable editable-click" data-name="{{ 'description__'.$codeLang }}" data-type="text" data-pk="" data-source="" data-url="{{ route('admin_store.update') }}" data-title="{{ trans('store.description') }}" data-value="{{ $descriptions[$codeLang]['description'] ?? '' }}" data-original-title="" title="">{{ $descriptions[$codeLang]['description'] ?? '' }}</a></i><br>
                           <br>
                           @endforeach
                         </td>

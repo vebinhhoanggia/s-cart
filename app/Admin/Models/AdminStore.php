@@ -21,9 +21,30 @@ class AdminStore extends ShopStore
         return ShopStoreDescription::insert($data);
     }
 
+    /**
+     * Update store description
+     *
+     * @param   array  $data  [$data description]
+     *
+     * @return  [type]        [return description]
+     */
     public static function updateDescription(array $data) {
-        return ShopStoreDescription::where('store_id', $data['storeId'])
+        $checkDes = ShopStoreDescription::where('store_id', $data['storeId'])
         ->where('lang', $data['lang'])
-        ->update([$data['name'] => $data['value']]);
+        ->first();
+        if($checkDes) {
+            return ShopStoreDescription::where('store_id', $data['storeId'])
+            ->where('lang', $data['lang'])
+            ->update([$data['name'] => $data['value']]);
+        } else {
+            return ShopStoreDescription::insert(
+                [
+                    'store_id' => $data['storeId'],
+                    'lang' => $data['lang'],
+                    $data['name'] => $data['value'],
+                ]
+            );
+        }
+
     }
 }
