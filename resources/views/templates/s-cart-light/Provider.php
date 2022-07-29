@@ -153,6 +153,19 @@ function sc_template_install_store($storeId = null) {
         'template' => 's-cart-light',
         'store_id' => $storeId,
     ];
+    /* All product */
+    $dataInsert[] = [
+        'id'       => sc_uuid(),
+        'name'     => 'All product (s-cart-light)',
+        'position' => 'top',
+        'page'     => '*',
+        'text'     => 'product_all',
+        'type'     => 'view',
+        'sort'     => 10,
+        'status'   => 1,
+        'template' => 's-cart-light',
+        'store_id' => $storeId,
+    ];
     \SCart\Core\Admin\Models\AdminStoreBlockContent::createStoreBlockContentAdmin($dataInsert);
 
     $modelBanner = new \SCart\Core\Front\Models\ShopBanner;
