@@ -1,6 +1,5 @@
 @php
 $categories = $modelCategory->start()->getCategoryRoot()->getData();
-$products = $modelProduct->start()->getProductLatest()->setlimit(sc_config('product_top'))->getData();
 @endphp
 {{-- block_main_content_center  --}}
 @if (count($categories))
@@ -13,6 +12,11 @@ $products = $modelProduct->start()->getProductLatest()->setlimit(sc_config('prod
             <h2 class="wow fadeScale" style="visibility: visible; animation-name: fadeScale; text-align: center;">{!! $category['title'] !!}</h2>
             <!-- Category Name -->
             <!-- Product list -->
+            @php
+                $categoriesTopId = $modelCategory->start()->getCategoryTop()->getData()->keyBy('id')->toArray();
+                $arrCategoriId = array_keys($categoriesTopId);
+                $products = $modelProduct->start()->getProductToCategory($arrCategoriId)->getData();
+            @endphp
             <div class="row row-30 row-lg-50">
                 @foreach ($products as $key => $product)
                 <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4">

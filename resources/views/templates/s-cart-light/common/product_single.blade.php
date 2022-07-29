@@ -11,9 +11,11 @@
       {!! $product->displayVendor() !!}
       @endif
 
-      @if ($product->allowSale())
-      <a onClick="addToCartAjax('{{ $product->id }}','default','{{ $product->store_id }}')" class="button button-secondary button-zakaria add-to-cart-list">
-        <i class="fa fa-cart-plus"></i> {{sc_language_render('action.add_to_cart')}}</a>
+      @if (sc_config('add_to_cart'))
+        @if ($product->allowSale())
+        <a onClick="addToCartAjax('{{ $product->id }}','default','{{ $product->store_id }}')" class="button button-secondary button-zakaria add-to-cart-list">
+          <i class="fa fa-cart-plus"></i> {{sc_language_render('action.add_to_cart')}}</a>
+        @endif
       @endif
 
       {!! $product->showPrice() !!}
@@ -26,6 +28,7 @@
     @elseif($product->kind == SC_PRODUCT_GROUP)
     <span><img class="product-badge new" src="{{ sc_file($sc_templateFile.'/images/home/group.png') }}" class="new" alt="" /></span>
     @endif
+    @if (sc_config('wishlist_compare'))
     <div class="product-button-wrap">
       <div class="product-button">
           <a class="button button-secondary button-zakaria" onClick="addToCartAjax('{{ $product->id }}','wishlist','{{ $product->store_id }}')">
@@ -38,4 +41,5 @@
           </a>
       </div>
     </div>
+    @endif
 </article>
