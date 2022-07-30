@@ -6,8 +6,8 @@
     RewriteEngine On
 
     #New for hostinger
-    RewriteCond %{HTTP_HOST} ^kedd.site$ [NC,OR]
-    RewriteCond %{HTTP_HOST} ^www.kedd.site$
+    RewriteCond %{HTTP_HOST} ^phungkytamco.vn$ [NC,OR]
+    RewriteCond %{HTTP_HOST} ^www.phungkytamco.vn$
     RewriteRule ^(.*)/$ /$1 [L,R=301]
 
     # Handle Authorization Header
