@@ -19869,3 +19869,21 @@ disabled look for disabled choices in the results dropdown
     text-align: left;
     box-shadow: unset !important;
 }
+/* customize */
+.a-button {
+	border: 1px solid #06c;
+	border-radius: 8px;
+	color: #06c;
+	font-size: 15px;
+	padding: 10px 48px 10px 48px;
+}
+.a-button:hover {
+	color: #fff;
+	background-color: #06c;
+}
+.a-button:link {
+	text-decoration: none;
+}
+.elementor-widget-container {
+	text-align: center;
+}

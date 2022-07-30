@@ -13,13 +13,15 @@ $categories = $modelCategory->start()->getCategoryRoot()->getData();
             <!-- Category Name -->
             <!-- Product list -->
             @php
-                $categoriesTopId = $modelCategory->start()->getCategoryTop()->getData()->keyBy('id')->toArray();
+                $category_root_id = $category['category_id'];
+                $categoriesTopId = $modelCategory->start()->setParent($category_root_id)->getData()->keyBy('id')->toArray();
                 $arrCategoriId = array_keys($categoriesTopId);
-                $products = $modelProduct->start()->getProductToCategory($arrCategoriId)->getData();
+                array_push($arrCategoriId, $category_root_id);
+                $products = $modelProduct->start()->getProductToCategory($arrCategoriId)->setLimit(sc_config('product_preview'))->getData();
             @endphp
             <div class="row row-30 row-lg-50">
                 @foreach ($products as $key => $product)
-                <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                <div class="col-sm-6 col-md-4 col-lg-6 col-xl-3">
                     <!-- Render product single -->
                     @include($sc_templatePath.'.common.product_single', ['product' => $product])
                     <!-- //Render product single -->
@@ -27,6 +29,11 @@ $categories = $modelCategory->start()->getCategoryRoot()->getData();
                 @endforeach
             </div>
             <!-- //Product list -->
+            <!-- Ref to category -->
+            <div class="" data-id="383adc6" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="html.default">
+                <div class="elementor-widget-container"> <a class="a-button" href="{{ $category->getUrl() }}">Xem tất cả {!! $category->getTitle() !!} <i class="fa-solid fa-angle-right"></i> </a> </div>
+            </div>
+            <!-- //Ref to category -->
         </div>
     </section>
     @endforeach
