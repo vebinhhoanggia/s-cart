@@ -19,9 +19,9 @@ $categories = $modelCategory->start()->getCategoryRoot()->getData();
                 array_push($arrCategoriId, $category_root_id);
                 $products = $modelProduct->start()->getProductToCategory($arrCategoriId)->setLimit(sc_config('product_preview'))->getData();
             @endphp
-            <div class="row row-30 row-lg-50">
+            <div class="row row-10 row-lg-20">
                 @foreach ($products as $key => $product)
-                <div class="col-sm-6 col-md-4 col-lg-6 col-xl-3">
+                <div class="col-sm-4 col-md-3 col-lg-4 col-xl-3">
                     <!-- Render product single -->
                     @include($sc_templatePath.'.common.product_single', ['product' => $product])
                     <!-- //Render product single -->

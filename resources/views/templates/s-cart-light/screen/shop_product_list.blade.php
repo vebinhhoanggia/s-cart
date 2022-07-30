@@ -56,9 +56,9 @@ Use paginate: $products->appends(request()->except(['page','_token']))->links()
 
 
     <!-- Product list -->
-    <div class="row row-30 row-lg-50">
+    <div class="row row-10 row-lg-20">
       @foreach ($products as $key => $product)
-      <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4">
+      <div class="col-sm-4 col-md-3 col-lg-4 col-xl-3">
           <!-- Render product single -->
           @include($sc_templatePath.'.common.product_single', ['product' => $product])
           <!-- //Render product single -->

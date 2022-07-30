@@ -68,10 +68,9 @@
         @section('block_main')
             <section class="section section-xxl bg-default text-md-left">
                 <div class="container">
-                    <div class="row row-50">
+                    <div class="row row-20">
                         @section('block_main_content')
-
-                        @if (empty($hiddenBlockLeft))
+                        @if (sc_config('show_block_left'))
                             <!--Block left-->
                             <div class="col-lg-4 col-xl-3">
                                 @section('block_main_content_left')
