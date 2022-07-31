@@ -18,7 +18,7 @@
             $arrBreadcrumbCatergory = [
                 'dermis',
                 'print_offset',
-                'plastic_bottle_embryo',
+                'plasticbottleembryo',
                 'accessory'
             ];
             $arrBreadcrumbHome = [
