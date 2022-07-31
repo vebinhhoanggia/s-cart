@@ -15,14 +15,34 @@
                 'shop_product_detail',
                 'shop_search'
             ];
+            $arrBreadcrumbCatergory = [
+                'dermis',
+                'print_offset',
+                'plastic_bottle_embryo',
+                'accessory'
+            ];
             $arrBreadcrumbHome = [
                 'shop_home',
                 'vendor_home',
                 'vendor_product_list'
             ];
             if (in_array($layout_page, $arrBreadcrumbPage)) {
-                $bannerBreadcrumbTmp = $modelBanner->start()->getBreadcrumb()->getData()->first();
-                $brPosition = 'bg-br-page';
+                $isExists = false;
+                foreach ($arrBreadcrumbCatergory as $elem)
+                {
+                    if (str_starts_with($keyword, $elem))
+                    {
+                        $isExists = true;
+                        break;
+                    }
+                }
+                if ($isExists) {
+                    $bannerBreadcrumbTmp = $modelBanner->start()->setType($keyword)->getData()->first();
+                    $brPosition = 'bg-br-page';
+                } else {
+                    $bannerBreadcrumbTmp = $modelBanner->start()->getBreadcrumb()->getData()->first();
+                    $brPosition = 'bg-br-page';
+                }
             } elseif (in_array($layout_page, $arrBreadcrumbHome)) {
                 if (isset($storeId)) {
                     $bannerBreadcrumbTmp = $modelBanner->start()->setStore($storeId)->getBannerStore()->getData()->first();
