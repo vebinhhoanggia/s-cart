@@ -1,2 +1,3 @@
 User-agent: *
-Disallow:
+Disallow: /sc_admin*
+Sitemap: https://www.phungkytamco.vn/sitemap.xml

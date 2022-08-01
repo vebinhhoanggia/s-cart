@@ -5,9 +5,11 @@
 
     RewriteEngine On
 
-    #New for hostinger
+    #New for product
+    RewriteCond %{HTTPS} !=on
     RewriteCond %{HTTP_HOST} ^phungkytamco.vn$ [NC,OR]
     RewriteCond %{HTTP_HOST} ^www.phungkytamco.vn$
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
     RewriteRule ^(.*)/$ /$1 [L,R=301]
 
     # Handle Authorization Header
