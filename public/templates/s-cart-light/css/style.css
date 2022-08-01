@@ -19887,6 +19887,7 @@ disabled look for disabled choices in the results dropdown
 }
 .elementor-widget-container {
 	text-align: center;
+	margin-top: 10px;
 }
 .unit-spacing-sm {
 	margin-bottom: -20px;
@@ -19902,4 +19903,11 @@ disabled look for disabled choices in the results dropdown
 }
 .unit-spacing-sm {
   	margin-bottom: -20px;
+}
+[class*='bg-'] {
+	background-color: whitesmoke;
+}
+.product {
+	background-color: white;
+	border-radius: 5%;
 }
