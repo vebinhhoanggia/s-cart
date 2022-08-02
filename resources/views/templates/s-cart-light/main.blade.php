@@ -97,9 +97,11 @@
                             <!--//Block center-->
                         @else
                             <!--Block center-->
-                            @section('block_main_content_center')
-                                @include($sc_templatePath.'.block_main_content_center')
-                            @show
+                            <div class="col-lg-24 col-xl-24">
+                                @section('block_main_content_center')
+                                    @include($sc_templatePath.'.block_main_content_center')
+                                @show
+                            </div>
                             <!--//Block center-->
                         @endif
 
