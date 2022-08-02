@@ -30,7 +30,7 @@
                 $isExists = false;
                 foreach ($arrBreadcrumbCatergory as $elem)
                 {
-                    if (str_starts_with($keyword, $elem))
+                    if (!empty($keyword) && str_starts_with($keyword, $elem))
                     {
                         $isExists = true;
                         break;
