@@ -13,15 +13,12 @@
     "type" : "project",
     "repositories": [
         {
-            "type": "path",
-            "url": "./packages/S-Cart-core",
-            "options": {
-                "symlink": false
-            }
+            "type": "vcs",
+            "url": "https://github.com/vebinhhoanggia/S-Cart-core.git"
         }
     ],
-    "require": {
-        "s-cart/core": "*"
+     "require": {
+        "s-cart/core": "dev-master"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",
