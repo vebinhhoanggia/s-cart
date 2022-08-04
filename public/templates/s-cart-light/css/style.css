@@ -19918,9 +19918,10 @@ disabled look for disabled choices in the results dropdown
 	background-color: #454648;
 }
 .rd-navbar-static .rd-nav-link {
-	text-transform: unset !important;
+	/* text-transform: unset !important; */
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 	font-size: 1rem;
+	letter-spacing: 0.04em;
 }
 /* .rd-navbar-nav-wrap ul li a {
 	color: inherit;
@@ -19943,4 +19944,5 @@ disabled look for disabled choices in the results dropdown
 .rd-navbar-nav-wrap ul li a:hover {
 	background-size: 0 2px, 100% 2px;
 	text-decoration: underline !important;
+	font-weight: bold !important;
 }
