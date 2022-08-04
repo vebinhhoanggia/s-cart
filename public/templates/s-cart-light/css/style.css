@@ -19914,3 +19914,12 @@ disabled look for disabled choices in the results dropdown
 .footer-classic-body {
 	background-color: #454648;
 }
+.rd-navbar-static .rd-nav-link {
+	text-transform: unset !important;
+	font-weight: bold;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.rd-navbar-nav-wrap ul li a:hover {
+    border-bottom: 2px solid #a9e9c5;
+	color: #d9a1a3 !important;
+}
