@@ -1,0 +1,12 @@
+{
+    "name": "ProductReview module",
+    "image": "images/review.png",
+    "auth": "S-Cart",
+    "email": "support@s-cart.org",
+    "link": "http://Your-link.com",
+    "configGroup": "Plugins",
+    "configCode": "Cms",
+    "configKey": "ProductReview",
+    "version": "6.0",
+    "scartVersion": []
+}

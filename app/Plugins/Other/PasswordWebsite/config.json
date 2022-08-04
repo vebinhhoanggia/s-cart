@@ -1,0 +1,12 @@
+{
+    "name": "Password Website module",
+    "image": "images/password-website.jpg",
+    "auth": "S-Cart",
+    "email": "support@s-cart.org",
+    "link": "http://S-Carg.org",
+    "configGroup": "Plugins",
+    "configCode": "Other",
+    "configKey": "PasswordWebsite",
+    "version": "3.0",
+    "scartVersion": []
+}
