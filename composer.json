@@ -14,9 +14,9 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/S-Cart-core",
+            "url": "../../packages/S-Cart-core",
             "options": {
-                "symlink": false
+                "symlink": true
             }
         }
     ],

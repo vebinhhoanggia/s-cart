@@ -9,6 +9,7 @@
                 </a>
                 <p>{{ sc_store('title', ($storeId ?? null)) }}</p>
                 <p> {!! sc_store('time_active', ($storeId ?? null))  !!}</p>
+                <p> {!! sc_store('time_consulting', ($storeId ?? null))  !!}</p>
                 <div class="footer-classic-social">
                   <div class="group-lg group-middle">
                     <div>
