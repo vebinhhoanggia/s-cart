@@ -37,7 +37,7 @@
                   <li>
                     <div class="unit unit-spacing-sm flex-column flex-md-row">
                       <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
-                      <div class="unit-body"><a href="#">{{ sc_language_render('store.address') }}: {{ sc_store('address', ($storeId ?? null)) }}</a></div>
+                      <div class="unit-body"><a href="{{ sc_config('google_pin_url') }}" target="_blank">{{ sc_language_render('store.address') }}: {{ sc_store('address', ($storeId ?? null)) }}</a></div>
                     </div>
                   </li>
                   <li>
@@ -53,7 +53,7 @@
                     </div>
                   </li>
                   <li>
-
+                  @if (!sc_config('hidden_subscribe_email'))
                     <form class="rd-form-inline rd-form-inline-2"  method="post" action="{{ sc_route('subscribe') }}">
                         @csrf
                           <div class="form-wrap">
@@ -66,6 +66,7 @@
                             </button>
                           </div>
                         </form>
+                  @endif
                   </li>
                 </ul>
               </div>
