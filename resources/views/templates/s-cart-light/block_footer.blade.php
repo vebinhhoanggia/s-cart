@@ -3,7 +3,7 @@
         <div class="footer-classic-body section-lg bg-brown-2">
           <div class="container">
             <div class="row row-40 row-md-50 justify-content-xl-between">
-              <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInRight">
+              <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInRight">
                 <a href="{{ sc_route('home') }}">
                     <img class="logo-footer" src="{{  sc_file(sc_store('logo', ($storeId ?? null))) }}" alt="{{ sc_store('title', ($storeId ?? null)) }}">
                 </a>
@@ -31,7 +31,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInRight" data-wow-delay=".1s">
+              <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
                 <h4 class="footer-classic-title">{{ sc_language_render('about.page_title') }}</h4>
                 <ul class="contacts-creative">
                   <li>
@@ -71,6 +71,7 @@
                 </ul>
               </div>
               <div class="col-lg-4 wow fadeInRight" data-wow-delay=".2s">
+                @if (!sc_config('hidden_my_profile'))
                 <h4 class="footer-classic-title"> {{ sc_language_render('front.my_profile') }}</h4>
                 <!-- RD Mailform-->
                 <ul class="contacts-creative">
@@ -83,6 +84,7 @@
                     @endforeach
                     @endif
                 </ul>
+                @endif
               </div>
             </div>
           </div>

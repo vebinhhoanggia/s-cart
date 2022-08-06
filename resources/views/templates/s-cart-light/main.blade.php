@@ -151,7 +151,7 @@
             width: 60%;
             height: 60%;
             left: 10px;
-            bottom: 25px;
+            bottom: 33px;
             line-height: 70px;
             font-size: 25px;
             opacity: 1
@@ -323,9 +323,9 @@
         {{-- //Block footer --}}
 
         <!-- Zalo button -->
-        <a href="https://chat.zalo.me/?phone={{ sc_config('zalo_number') }}" id="linkzalo" target="_blank" rel="noopener noreferrer">
+        <a href="https://zalo.me/{{ sc_config('zalo_number') }}" id="linkzalo" target="_blank" rel="noopener noreferrer">
             <div id="fcta-zalo-tracking" class="fcta-zalo-mess">
-                <span id="fcta-zalo-tracking">Zalo: {{ sc_config('zalo_number') }}</span>
+                <span id="fcta-zalo-tracking">Chat Zalo <span class="fcta-zalo-hour-active">(7h - 17h)</span><br /></span>
             </div>
             <div class="fcta-zalo-vi-tri-nut">
                 <div id="fcta-zalo-tracking" class="fcta-zalo-nen-nut">
