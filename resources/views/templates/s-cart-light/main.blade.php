@@ -204,9 +204,7 @@
     </script>
     <!-- End Zalo button -->
     <style>
-        {
-             ! ! sc_store_css() ! !
-        }
+        {!! sc_store_css() !!}
     </style>
     <style>
         .ie-panel {
