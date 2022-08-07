@@ -20008,3 +20008,6 @@ disabled look for disabled choices in the results dropdown
 	font-weight: 600;
 }
  */
+.product-figure img {
+	max-height: 200px;
+}
