@@ -8,124 +8,249 @@
 
 
 <url>
-  <loc>https://www.phungkytamco.vn/</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://www.phungkytamco.vn</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/baobicarton.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/cart.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/inoffset.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/checkout.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/phoichainhua.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/customer/login.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/phukien.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/customer/register.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/news</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/customer/forgot.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/about.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/contact.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/contact.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/search.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/product/reg.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/product/chai-1l-vuong.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/product/g.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/product/chai-1l-vuong2.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/product/fff.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/product/chai-2l.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/product/g1.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/product/chai-5l.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/product/carton5lop-a.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.phungkytamco.vn/vi/product/demo-alias-5.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/chai-co-cao.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/carton5lop.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/chai-coca.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/carton3lop.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/chai-dam-nho.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/giaysonge.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/chai-nuoc-mam-450ml.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/giaysongb.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/nhan-nuoc-mam-450ml.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/ingiaconthungoffset.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/nhan-nuoc-mam-900ml.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/intoroi.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/thung-in-offset.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/phoi.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/giay-cuon.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/chainhua.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/de-banh-kem-5lop.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/category/napnhua.html</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/thung-trang.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://www.phungkytamco.vn/vi/shop</loc>
-  <lastmod>2022-08-01T02:40:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.phungkytamco.vn/vi/product/song-e-2lop.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/product/thung-mat-lang.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/product/thung-mat-nau-5lop.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/product/thung-trang-1.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/product/nap-nhua.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/baobicarton.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/inoffset.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/phoichainhua.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/carton5lop.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/carton3lop.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/giaysonge.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/giaysongb.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/ingiaconthungoffset.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/intoroi.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/phoi.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/chainhua.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/category/napnhua.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.phungkytamco.vn/vi/about.html</loc>
+<lastmod>2022-08-07T22:19:13.167191+07:00</lastmod>
+<priority>0.8</priority>
+<changefreq>weekly</changefreq>
 </url>
 
 
