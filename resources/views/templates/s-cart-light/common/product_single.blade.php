@@ -16,6 +16,12 @@
         <a onClick="addToCartAjax('{{ $product->id }}','default','{{ $product->store_id }}')" class="button button-secondary button-zakaria add-to-cart-list">
           <i class="fa fa-cart-plus"></i> {{sc_language_render('action.add_to_cart')}}</a>
         @endif
+      @else
+        <div class="box-price-product">
+            <div class="price-box">
+              <span class="price font-subtitle-2">{{sc_language_render('product.contact_us')}}</span>
+            </div>
+        </div>
       @endif
 
       {!! $product->showPrice() !!}

@@ -19899,7 +19899,7 @@ disabled look for disabled choices in the results dropdown
   	height: unset !important;
 }
 .rd-navbar-nav-wrap, .rd-navbar-main-outer, .rd-navbar-fixed .rd-nav-link {
-	background-color: #C8C8C8 !important;
+	background-color: #FFFFFF !important;
 }
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main {
   padding: unset !important;
@@ -19973,7 +19973,7 @@ disabled look for disabled choices in the results dropdown
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
-	max-height: 45px !important;
+	max-height: 65px !important;
 }
 
 @media (min-width: 1200px) {
@@ -20010,4 +20010,13 @@ disabled look for disabled choices in the results dropdown
  */
 .product-figure img {
 	max-height: 200px;
+}
+.box-price-product .price-box .price {
+	font-size: 1.2rem;
+	font-weight: 500;
+	white-space: nowrap;
+	color: #ED584D;
+}
+.shop_contact_maps {
+	padding: 0px 10px;
 }

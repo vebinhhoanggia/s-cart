@@ -84,12 +84,15 @@ $layout_page = shop_contact
 
                     {{-- Button submit --}}
                     <div class="btn-toolbar form-group">
-                        <input type="submit" value="{{ sc_language_render('action.submit') }}" class="button button-lg button-secondary" id="button-form-process">
+                        <input type="submit" value="{{ sc_language_render('action.submit_contact_us') }}" class="button button-lg button-secondary" id="button-form-process">
                     </div>
                     {{--// Button submit --}}
                 </div>
             </form>
         </div>
+    </div>
+    <div class="row shop_contact_maps" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.5595838162476!2d109.0946116!3d13.925253000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316f3f1e99d539df%3A0x548f1514d497c4c9!2zQ8OUTkcgVFkgVE5ISCBQSMOZTkcgS-G7si1Uw4FNIEPhu5I!5e0!3m2!1sen!2s!4v1660230472425!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 </section>
