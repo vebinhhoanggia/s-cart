@@ -43,7 +43,7 @@
                   <li>
                     <div class="unit unit-spacing-sm flex-column flex-md-row">
                       <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
-                      <div class="unit-body"><a href="tel:#">{{ sc_language_render('store.hotline') }}: {{ sc_store('long_phone', ($storeId ?? null)) }}</a></div>
+                      <div class="unit-body">{{ sc_language_render('store.hotline') }}: {{ sc_store('long_phone', ($storeId ?? null)) }}</div>
                     </div>
                   </li>
                   <li>
@@ -53,6 +53,12 @@
                     </div>
                   </li>
                   <li>
+                  <li>
+                    <div class="unit unit-spacing-sm flex-column flex-md-row">
+                      <div class="unit-left"><span class="icon mdi mdi-note"></span></div>
+                      <div class="unit-body">{{ html_entity_decode(sc_store('introduce', ($storeId ?? null))) }}</div>
+                    </div>
+                  </li>
                   @if (!sc_config('hidden_subscribe_email'))
                     <form class="rd-form-inline rd-form-inline-2"  method="post" action="{{ sc_route('subscribe') }}">
                         @csrf

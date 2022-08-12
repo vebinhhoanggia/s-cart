@@ -20012,11 +20012,17 @@ disabled look for disabled choices in the results dropdown
 	max-height: 200px;
 }
 .box-price-product .price-box .price {
-	font-size: 1.2rem;
+	font-size: 1.0rem;
 	font-weight: 500;
 	white-space: nowrap;
 	color: #ED584D;
 }
 .shop_contact_maps {
 	padding: 0px 10px;
+}
+.section-md, .section-lg, .section-xl, .section-xxl, .section-inset-2 {
+	padding: 20px 0px !important;
+}
+.contact_content img {
+	max-width: 60%;
 }
