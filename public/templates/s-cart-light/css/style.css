@@ -20021,8 +20021,20 @@ disabled look for disabled choices in the results dropdown
 	padding: 0px 10px;
 }
 .section-md, .section-lg, .section-xl, .section-xxl, .section-inset-2 {
-	padding: 20px 0px !important;
+	padding: 40px 0px !important;
 }
 .contact_content img {
 	max-width: 60%;
+}
+.categories-block .container .row {
+	margin-top: 20px !important;
+}
+.categories-block section:last-child {
+	padding-bottom: 40px;
+}
+.product-title {
+	text-transform: unset;
+}
+.post-classic-figure img {
+	border-radius: 10px;
 }
